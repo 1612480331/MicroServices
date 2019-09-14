@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master    #git分支
+      server:
+        git:
+          uri:  ##仓库地址
+          search-paths:  #仓库中放配置的目录
+          sername:
+          password:
